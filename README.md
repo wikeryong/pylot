@@ -4,6 +4,8 @@ pylot
 Python test tool. Forked from http://pylot.org
 
 
+教程：http://www.cnblogs.com/numbbbbb/archive/2013/04/19/3029959.html
+
 首先需要配置一下testcases.xml这个文件。这个文件包含了需要测试的目标url以及具体的测试内容。
 
 　　大家打开testcases.xml之后可以看到两个<case>......</case>，因为我们只是要一个简单的实例，所以我们把第二个<case>....</case>删掉，然后把第一个<case>....</case>里面的<url></url>改成你需要测试的url。我的就是<url>http://www.langman1dian.com</url>。改好之后整个文章内容是这样的
